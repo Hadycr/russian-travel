@@ -1,0 +1,8 @@
+.intro {
+  padding-left: 148px;
+  padding-top: 92px;
+  min-height: 429px;
+  min-width: 690px;
+  outline: 1px solid red ;
+  box-sizing: border-box;
+}

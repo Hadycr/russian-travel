@@ -1,0 +1,7 @@
+.lead__image {
+  max-height: 615px;
+  max-width: 984px;
+  padding-top: 64px;
+  object-fit: cover;
+  object-position: center;
+}
