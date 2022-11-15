@@ -4,7 +4,20 @@
   line-height: 58px;
   margin: 0;
   padding: 0;
-  outline: 1px solid red ;
   text-align: left;
-  max-width: 690px;
+}
+@media screen and (max-width: 430px) {
+  .intro__title {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+  } 
+}
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    padding-right: 40px;
+  }
 }

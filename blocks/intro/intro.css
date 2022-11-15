@@ -1,8 +1,25 @@
 .intro {
-  padding-left: 148px;
-  padding-top: 92px;
-  min-height: 429px;
-  min-width: 690px;
-  outline: 1px solid red ;
+  margin-left: 148px;
+  margin-top: 92px;
+  max-width: 690px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-left: 24px;
+    margin-top: 88px;
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    margin-left: 16px;
+    margin-top: 64px;
+    max-width: 288px;
+  }
 }

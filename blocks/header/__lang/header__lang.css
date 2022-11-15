@@ -5,7 +5,6 @@
   font-size: 24px;
   line-height: 28px;
   list-style-type: none;
-  outline: 1px solid red ;
   margin: 0;
   padding: 0 0 5px;
 }
@@ -13,6 +12,5 @@
   .header__lang {
     font-size: 18px;
     line-height: 20px;
-    
     } 
 }  
