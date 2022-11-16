@@ -2,6 +2,7 @@
   background-image: url("../../../img/cover-trains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   min-height: 740px;
   box-sizing: border-box;
   display: flex;
@@ -41,6 +42,5 @@
 @media screen and (max-width: 320px) {
   .cover__link {
     min-height: 200px;
-    justify-content: flex-start;   
   }
 }

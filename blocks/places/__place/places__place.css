@@ -16,7 +16,6 @@
 }
 @media screen and (max-width: 820px) {
   .places__place {
-    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     grid-template-rows: repeat(2, fit-content);
     gap: 48px 28px;
   }
@@ -24,16 +23,9 @@
 @media screen and (max-width: 768px) {
   .places__place {
     grid-template-columns: minmax(100px, 338px) minmax(150px, 352px);
-    grid-template-rows: repeat(2, fit-content);
-    gap: 48px 28px; 
   }
 }
 @media screen and (max-width: 430px) {
-  .places__place {
-    gap: 10px 10px; 
-  }
-}
-@media screen and (max-width: 320px) {
   .places__place {
     grid-template-areas:
     "title"
