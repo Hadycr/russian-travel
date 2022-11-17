@@ -25,7 +25,7 @@
     grid-template-columns: minmax(100px, 338px) minmax(150px, 352px);
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 680px) {
   .places__place {
     grid-template-areas:
     "title"
